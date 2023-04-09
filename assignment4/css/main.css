@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* login form start */
+.login_form {
+    /* background-image: url("../images/login_background.png");
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    padding: 5rem; */
+
+    background-image: url("../images/login_background.png");
+    align-items: center;
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    position: relative;
+}
+
+.login_box_glass {
+    margin: 19.5rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgb(80 64 64 / 43%), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+/* move gallery start */
+.move_img {
+    align-items: center;
+    /* background-image: url("/public/Sources/images/move_img.png"); */
+    background-image: url("../images/login_background.png");
+    display: flex;
+    height: auto;
+    justify-content: center;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+
+    background: linear-gradient(135deg, rgb(80 64 64 / 43%), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.move_img .box_wrapper {
+    margin: 8rem;
+}
+
+.move_img .box {
+    padding: 4rem;
+}
+
+/* move gallery end */
+
+
+/* login form end */
